@@ -1,0 +1,56 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- LinearLayout untuk semua elemen -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/sightNameDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/bree_serif"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:paddingTop="16dp" />
+
+        <ImageView
+            android:id="@+id/sightImageDetail"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/sightLocationDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bree_serif"
+            android:paddingTop="8dp"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/sightTanggal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:fontFamily="@font/bree_serif"
+            android:paddingTop="8dp"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/sightLocationDeskripsi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppinsregular"
+            android:paddingTop="8dp"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+</ScrollView>

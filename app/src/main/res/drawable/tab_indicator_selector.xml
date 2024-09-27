@@ -1,0 +1,17 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Saat dipilih -->
+    <item android:state_selected="true">
+        <shape android:shape="oval">
+            <size android:width="12dp" android:height="12dp"/> <!-- Ukuran bulat saat dipilih -->
+            <solid android:color="#004CA9"/> <!-- Warna putih saat dipilih -->
+        </shape>
+    </item>
+
+    <!-- Saat tidak dipilih -->
+    <item android:state_selected="false">
+        <shape android:shape="oval">
+            <size android:width="8dp" android:height="8dp"/> <!-- Ukuran bulat saat tidak dipilih -->
+            <solid android:color="#80450202"/> <!-- Warna putih transparan saat tidak dipilih -->
+        </shape>
+    </item>
+</selector>

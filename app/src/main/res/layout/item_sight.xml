@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="8dp">
+
+    <!-- Gambar Sight -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <!-- Gambar Sight -->
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/sightImage"
+            android:layout_width="163dp"
+            android:layout_height="198dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_launcher_background"
+            app:shapeAppearanceOverlay="@style/RoundedImage" />
+
+        <!-- View overlay dengan radius yang sama -->
+
+
+        <TextView
+            android:id="@+id/sightName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="65pt"
+            android:fontFamily="bree_serif"
+            android:gravity="center"
+            android:text="Sensoji Temple"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/sightLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="75pt"
+            android:gravity="center"
+            android:text="Tokyo"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="14sp" />
+
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <!-- Gambar -->
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/destinationImage"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_launcher_foreground"
+        app:shapeAppearanceOverlay="@style/RoundedImage"/>
+
+
+    <!-- Label Destinasi -->
+    <TextView
+        android:id="@+id/destinationName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="Osaka"
+        android:textSize="14sp"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="4dp" />
+</LinearLayout>
